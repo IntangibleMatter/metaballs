@@ -45,3 +45,12 @@ Cycle through the colours in the open folder
 
 Toggle displaying the name of the palette on screen when it gets loaded.
 
+`Space`:
+
+Toggle fullscreen
+
+`Esc`
+
+Quit
+
+

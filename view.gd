@@ -85,7 +85,7 @@ func load_palettes(folder: String) -> void:
 	p_names.clear()
 	var location : String = "res://palettes/%s" % folder if folder != "user" else "user://palettes"
 	for p in DirAccess.get_files_at(location):
-		pallettes.append(load("{0}/{1}".format([location, p])))
-		p_names.append(p)
+		pallettes.append(load("{0}/{1}".format([location, p.replace(".remap", "")])))
+		p_names.append(p.replace(".remap", ""))
 	p_index = p_index % pallettes.size()
 	set_palette(p_index)
