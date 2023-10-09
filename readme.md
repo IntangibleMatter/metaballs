@@ -10,6 +10,8 @@ title on the website.
 that I knew and thought might look cool. If you have any you want me to add let
 me know!)
 
+Also available on [Itch.io!](https://intangiblematter.itch.io/metaballs/)
+
 ## Hotkeys:
 
 `0`:
