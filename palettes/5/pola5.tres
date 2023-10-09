@@ -1,0 +1,9 @@
+[gd_resource type="GradientTexture1D" load_steps=2 format=3 uid="uid://bccb0xr0hy352"]
+
+[sub_resource type="Gradient" id="Gradient_mf16r"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.45, 0.6, 0.75, 0.9)
+colors = PackedColorArray(0.027451, 0.0313726, 0.0627451, 1, 0.0941176, 0.156863, 0.290196, 1, 0.321569, 0.647059, 0.870588, 1, 0.67451, 0.839216, 0.964706, 1, 0.921569, 0.976471, 1, 1)
+
+[resource]
+gradient = SubResource("Gradient_mf16r")
