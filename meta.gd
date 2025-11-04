@@ -71,7 +71,7 @@ func create_balls(count: int) -> void:
 			Vector2.ZERO,#(randf_range(-INIT_A, INIT_A), randf_range(-INIT_A, INIT_A)),
 			Vector2(randf_range(-half_width, half_width), randf_range(-half_height, half_height))
 			))
-		print(balls[-1])
+		#print(balls[-1])
 
 
 func update_balls(delta: float) -> void:

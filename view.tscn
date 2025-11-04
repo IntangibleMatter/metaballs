@@ -1,7 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://cbpaji1s8apv2"]
+[gd_scene load_steps=8 format=3 uid="uid://cbpaji1s8apv2"]
 
-[ext_resource type="Script" path="res://view.gd" id="1_i3rov"]
-[ext_resource type="Shader" path="res://view.gdshader" id="1_teu8h"]
+[ext_resource type="Script" uid="uid://dg27dokntsym5" path="res://view.gd" id="1_i3rov"]
+[ext_resource type="Shader" uid="uid://d3l1vhoah8ygg" path="res://view.gdshader" id="1_teu8h"]
 [ext_resource type="PackedScene" uid="uid://cldu5o7rgeph5" path="res://meta.tscn" id="1_xqbdx"]
 [ext_resource type="Texture2D" uid="uid://dyiho6516o32e" path="res://palettes/8/vividmemory8.tres" id="3_sr1dg"]
 
@@ -13,6 +13,9 @@ shader_parameter/gradient = ExtResource("3_sr1dg")
 font_size = 32
 outline_size = 6
 outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Theme" id="Theme_2crm8"]
+default_font_size = 32
 
 [node name="view" type="Node2D"]
 script = ExtResource("1_i3rov")
@@ -39,3 +42,19 @@ offset_right = 1921.0
 offset_bottom = 64.0
 grow_horizontal = 2
 label_settings = SubResource("LabelSettings_4sb7w")
+
+[node name="PaletteMenu" type="MenuButton" parent="."]
+visible = false
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 1728.0
+offset_right = 1920.0
+offset_bottom = 56.0
+grow_vertical = 0
+theme = SubResource("Theme_2crm8")
+theme_override_colors/font_color = Color(0.875, 0.875, 0.875, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 32
+text = "Palettes"

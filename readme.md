@@ -4,7 +4,7 @@ This is a simple 2D metaballs implementation based off of [John Wigg's implement
 
 All of the colour palettes (aside from the flags and a few others) are sourced
 from [Lospec](https://lospec.com). The files are all named based on the palette's
-title on the website. 
+title on the website.
 
 (Also *please* don't read too much into which flags I chose, I just picked some
 that I knew and thought might look cool. If you have any you want me to add let
@@ -51,8 +51,10 @@ Toggle displaying the name of the palette on screen when it gets loaded.
 
 Toggle fullscreen
 
-`Esc`
+`Esc`:
 
 Quit
 
+`Tab`, `~`:
 
+Toggle the palettes menu
